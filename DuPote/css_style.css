@@ -132,6 +132,13 @@ fieldset {
     padding-left: 10px;
 }
 
+.section-title h4 {
+	margin-bottom: 30px;
+	border-left: 4px solid #4c9cef;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
 .section-title-style {
     color: #ffa500;
     border-bottom: 5px solid #4c9cef;
@@ -268,8 +275,8 @@ fieldset {
 
 .home-section-background {
 	padding: 40px;
-    background: url(images_bg_bg.jpg);
-    background-size: cover;
+        background: url(images_bg_bg.jpg);
+        background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -283,32 +290,23 @@ fieldset {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+        text-shadow: 6px 6px gray;
 }
 
 .home-section-background h3 {
     font-size: 25px;
     color: #ffffff;
     font-weight: 700;
+    line-height: 50%;
     text-align: center;
 }
 
 .home-section-background h4 {
-    text-align: center;
-    border: none;
-	font-family: inherit;
-	font-size: 15px;
-	color: #ffffff;
-	background: none;
-	border-radius: 50px;
-	padding: 20px 65px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-size: 30px;
+	color: #00aaff;
 	font-weight: 700;
-	outline: none;
-	position: relative;
-
+	text-align: center;
+        text-shadow: 3px 3px gray;
 }
 
 .home-section-background p {
@@ -318,7 +316,7 @@ fieldset {
 	text-align: center;
 }
 
-.countdown-timer {
+.menu-inf-link {
 	display: block;
     border: 2px solid #ffffff;
 	border-bottom: 1px;
@@ -332,7 +330,7 @@ fieldset {
     background-color: #4c9cef;
 }
 
-.countdown-timer span {
+.menu-inf-link span {
 	font-size: 55px;
     font-weight: 700;
     color: #ffffff;
@@ -341,7 +339,7 @@ fieldset {
 	display: inline-block;
 }
 
-.countdown-timer p {
+.menu-inf-link p {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
