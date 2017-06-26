@@ -316,21 +316,21 @@ fieldset {
 	text-align: center;
 }
 
-.menu-inf-link {
+.menu-bot {
 	display: block;
     border: 2px solid #ffffff;
 	border-bottom: 1px;
     text-align: center;
     margin: 0 auto;
-    padding: 60px;
-    margin-top: 20px;
+    padding: 30px;
+    margin-top: 50px;
     overflow: hidden;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     background-color: #4c9cef;
 }
 
-.menu-inf-link span {
+.menu-bot span {
 	font-size: 55px;
     font-weight: 700;
     color: #ffffff;
@@ -339,9 +339,9 @@ fieldset {
 	display: inline-block;
 }
 
-.menu-inf-link p {
-    font-size: 14px;
-    font-weight: 400;
+.menu-bot p {
+    font-size: 30px;
+    font-weight: 600;
     color: #ffffff;
     text-align: center;
 	text-transform: capitalize;
