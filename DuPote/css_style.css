@@ -317,9 +317,9 @@ fieldset {
 }
 
 .menu-bot {
-	display: block;
+    display: block;
     border: 2px solid #ffffff;
-	border-bottom: 1px;
+    border-bottom: 1px;
     text-align: center;
     margin: 0 auto;
     padding: 30px;
@@ -331,12 +331,12 @@ fieldset {
 }
 
 .menu-bot span {
-	font-size: 55px;
+    font-size: 55px;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
-	margin-top: 40px;
-	display: inline-block;
+    margin-top: 40px;
+    display: inline-block;
 }
 
 .menu-bot p {
@@ -344,7 +344,7 @@ fieldset {
     font-weight: 600;
     color: #ffffff;
     text-align: center;
-	text-transform: capitalize;
+    text-transform: capitalize;
     margin-top: 8px;
     padding: 0;
     margin: 0;
