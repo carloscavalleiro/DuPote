@@ -81,9 +81,15 @@ img {
 }
 
 a {
-    color: #4c9cef;
+    color: #ffffff;
 }
-
+ /*
+ a:link {color: #0000ff;}
+ a:visited {color: #ff0000;}
+ a:active {color: #00FF00;}
+ a:hover {background-color: #ffffff;}
+ a {text-decoration: none;}
+*/
 a:hover,
 a:active,
 a:focus {
@@ -121,23 +127,23 @@ fieldset {
 }
 
 .section-title {
-    background-color: #ffffff;
-	padding: 50px;
+    background-color: #69b3b6;
+    padding: 50px;
 }
 
-.section-title h2 {
-	margin-bottom: 30px;
-	border-left: 4px solid #4c9cef;
-    margin-left: -15px;
-    padding-left: 10px;
-}
+    .section-title h2 {
+        margin-bottom: 30px;
+        border-left: 4px solid #4c9cef;
+        margin-left: -15px;
+        padding-left: 10px;
+    }
 
-.section-title h4 {
-	margin-bottom: 30px;
-	border-left: 4px solid #4c9cef;
-    margin-left: -15px;
-    padding-left: 10px;
-}
+    .section-title h4 {
+        margin-bottom: 30px;
+        border-left: 4px solid #4c9cef;
+        margin-left: -15px;
+        padding-left: 10px;
+    }
 
 .section-title-style {
     color: #ffa500;
@@ -274,50 +280,100 @@ fieldset {
 /* Home Section with CountDown Timer */
 
 .home-section-background {
-	padding: 40px;
-        background: url(images_bg_bg.jpg);
-        background-size: cover;
-	background-attachment: fixed;
+    padding: 40px;
+    background: url(images_bg_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: #69b3b6
 }
 
-.home-section-background img {
-	width: auto;
-}
+    .home-section-background img {
+        width: auto;
+    }
 
-.home-section-background h2 {
-	font-size: 60px;
-	color: #ffffff;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-align: center;
+    .home-section-background h2 {
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
         text-shadow: 6px 6px gray;
-}
+    }
 
-.home-section-background h3 {
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 50%;
-    text-align: center;
-}
+    .home-section-background h3 {
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 50%;
+        text-align: center;
+    }
 
-.home-section-background h4 {
-	font-size: 30px;
-	color: #00aaff;
-	font-weight: 700;
-	text-align: center;
+    .home-section-background h4 {
+        font-size: 30px;
+        color: #ffa500;
+        font-weight: 700;
+        text-align: center;
         text-shadow: 3px 3px gray;
+    }
+
+    .home-section-background p {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        text-align: center;
+    }
+
+.sub-section-background {
+    padding: 30px;
+    background-image: url(images_logo_logo.png);
+    background-size: 141px 75px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30px 30px;
+    background-color: #69b3b6
 }
 
-.home-section-background p {
-	font-size: 15px;
-	color: #ffffff;
-	font-weight: 500;
-	text-align: center;
-}
+    .sub-section-background img {
+        width: auto;
+    }
+
+    .sub-section-background h2 {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 6px 6px gray;
+    }
+
+    .sub-section-background h3 {
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 50%;
+        text-align: center;
+    }
+
+    .sub-section-background h4 {
+        font-size: 30px;
+        color: #ffa500;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 3px 3px gray;
+    }
+
+    .sub-section-background p {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        text-align: center;
+    }
+
 
 .menu-bot {
     display: block;
+    height: 150px;
     border: 2px solid #ffffff;
     border-bottom: 1px;
     text-align: center;
@@ -344,7 +400,6 @@ fieldset {
     font-weight: 600;
     color: #ffffff;
     text-align: center;
-    text-transform: capitalize;
     margin-top: 8px;
     padding: 0;
     margin: 0;
