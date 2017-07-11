@@ -1457,3 +1457,10 @@ fieldset {
 .uipasta-credit a:hover {
     color: #ffa500;
 }
+
+#footer {
+	position:fixed;
+	left:0px;
+	top:80%;
+	width:100%;
+ }
