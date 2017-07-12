@@ -1466,6 +1466,16 @@ fieldset {
     color: #ffa500;
 }
 
+.table-images table {
+	width: 100%;
+}
+	
+.table-images th {
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+}
+
 #footer {
 	position:fixed;
 	left:0px;
