@@ -1473,7 +1473,9 @@ fieldset {
 .table-images th {
 	font-weight: 800;
 	font-size: 20px;
+	line-height: 2;
 	text-align: center;
+	color: #ffffff;
 }
 
 #footer {
