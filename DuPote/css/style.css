@@ -34,7 +34,7 @@
 }
   .content > article {
     background: #69B3B6;
-    flex: 7;
+    flex: 9;
     min-height: 60vh;
 	font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -49,13 +49,6 @@
     line-height: 80%;
     text-align: center;
     text-shadow: 3px 3px gray;
-}
-  .content h3 {
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 100%;
-    text-align: center;
 }
   header {
     background: #69B3B6;
