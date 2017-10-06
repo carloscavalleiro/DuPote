@@ -22,7 +22,7 @@
     flex-direction: column;
   }
   .content > featured {
-    min-height: 10vh;
+    min-height: 5vh;
     font-size: 20px;
 	font-family: "Poppins", sans-serif;
 	font-weight: bold;
@@ -35,7 +35,7 @@
   .content > article {
     background: #69B3B6;
     flex: 9;
-    min-height: 60vh;
+    min-height: 65vh;
 	font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #ffffff;
@@ -63,6 +63,11 @@
   footer {
     background: #69B3B6;
     height: 15vh;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color:white;
+	font-size:100%;
+	text-align:center;
   }
   header, footer, article, nav {
     padding: 20px;
