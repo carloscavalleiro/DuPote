@@ -1,0 +1,66 @@
+﻿  * {
+    box-sizing: border-box; 
+  }
+  body {
+    background: #69B3B6;
+    display: flex;
+    min-height: 100vh;
+	    flex-direction: column;
+
+    margin: 0;
+  }
+  .content {
+    display: flex;
+	flex-direction: column;
+  }
+  .content > featured {
+    min-height: 5vh;
+    font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+    color: #ffa500;
+	flex: 1;
+    font-weight: 700;
+	text-align:center;
+    text-shadow: 3px 3px gray;
+}
+  .content > article {
+    background: #69B3B6;
+    flex: 9;
+    min-height: 65vh;
+	font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .content h4 {
+    font-size: 25px;
+    color: #ffa500;
+    font-weight: 700;
+    line-height: 80%;
+    text-align: center;
+    text-shadow: 3px 3px gray;
+}
+  header {
+    background: #69B3B6;
+    height: 15vh;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color:white;
+	font-size:250%;
+	text-align:center;
+	text-shadow: 6px 6px gray;
+  }
+  footer {
+    background: #69B3B6;
+    height: 15vh;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color:white;
+	font-size:100%;
+	text-align:center;
+  }
+  header, footer, article, nav {
+    padding: 20px;
+  }
